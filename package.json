@@ -1,0 +1,32 @@
+{
+  "name": "mini-dsp-challenge",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "node --test --experimental-strip-types tests/unit/**/*.test.ts",
+    "test:smoke": "node tests/smoke/scan-api.mjs"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.118.0",
+    "next": "15.5.28",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.1",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "eslint": "9.39.5",
+    "eslint-config-next": "15.5.28",
+    "typescript": "5.6.3"
+  },
+  "overrides": {
+    "postcss": "8.5.31",
+    "braces": "3.0.3"
+  }
+}

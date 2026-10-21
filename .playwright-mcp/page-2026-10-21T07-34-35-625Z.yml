@@ -1,0 +1,141 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - link "Skip to content" [ref=e6] [cursor=pointer]:
+      - /url: "#main"
+    - banner [ref=e9]:
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - link "Supabase Back to organization home" [ref=e12] [cursor=pointer]:
+            - /url: /dashboard/organizations
+            - img "Supabase" [ref=e13]
+            - generic [ref=e14]: Back to organization home
+          - button "Connect" [disabled] [ref=e22]
+        - generic [ref=e27]:
+          - button "Feedback" [ref=e28] [cursor=pointer]
+          - generic [ref=e30]:
+            - button [ref=e31] [cursor=pointer]:
+              - paragraph [ref=e36]: Search...
+              - generic [ref=e38]: Ctrl K
+            - button "Help" [ref=e39] [cursor=pointer]
+            - button "Advisor Center" [ref=e46] [cursor=pointer]
+            - button "SQL Editor" [ref=e51] [cursor=pointer]
+            - button "AI Assistant" [ref=e56] [cursor=pointer]
+          - button [ref=e64] [cursor=pointer]
+    - generic [ref=e69]:
+      - generic [ref=e73]:
+        - navigation [ref=e75]:
+          - list [ref=e77]:
+            - listitem [ref=e78]:
+              - link "Project Overview" [ref=e79] [cursor=pointer]:
+                - /url: /dashboard/project/xoapfqjmzczxamxgkqnf
+            - listitem [ref=e82]:
+              - button "Table Editor" [disabled]
+            - listitem [ref=e83]:
+              - button "SQL Editor" [disabled]
+          - list [ref=e85]:
+            - listitem [ref=e86]:
+              - button "Database" [disabled]
+            - listitem [ref=e87]:
+              - button "Authentication" [disabled]
+            - listitem [ref=e88]:
+              - button "Storage" [disabled]
+            - listitem [ref=e89]:
+              - link "Edge Functions" [ref=e90] [cursor=pointer]:
+                - /url: /dashboard/project/xoapfqjmzczxamxgkqnf/functions
+            - listitem [ref=e96]:
+              - button "Realtime" [disabled]
+          - list [ref=e98]:
+            - listitem [ref=e99]:
+              - button "Advisors" [disabled]
+            - listitem [ref=e100]:
+              - button "Observability" [disabled]
+            - listitem [ref=e101]:
+              - link "Logs" [ref=e102] [cursor=pointer]:
+                - /url: /dashboard/project/xoapfqjmzczxamxgkqnf/logs
+            - listitem [ref=e104]:
+              - button "Integrations" [disabled]
+          - list [ref=e106]:
+            - listitem [ref=e107]:
+              - link "Project Settings" [ref=e108] [cursor=pointer]:
+                - /url: /dashboard/project/xoapfqjmzczxamxgkqnf/settings/general
+        - button "Sidebar control" [ref=e114] [cursor=pointer]
+      - main [ref=e121]:
+        - main [ref=e126]:
+          - generic [ref=e127]:
+            - generic [ref=e131]:
+              - generic [ref=e141]:
+                - generic [ref=e152]:
+                  - generic [ref=e153]: Status
+                  - generic [ref=e154]: Checking...
+                - link "Compute size Unknown" [ref=e156] [cursor=pointer]:
+                  - /url: /dashboard/project/xoapfqjmzczxamxgkqnf/settings/infrastructure
+                  - generic [ref=e162]:
+                    - generic [ref=e163]: Compute size
+                    - paragraph [ref=e166]: Unknown
+                - generic [ref=e167]: GitHub
+                - link "Recent branch" [ref=e177] [cursor=pointer]:
+                  - /url: /dashboard/project/xoapfqjmzczxamxgkqnf/branches
+                - link "Last migration" [ref=e188] [cursor=pointer]:
+                  - /url: /dashboard/project/xoapfqjmzczxamxgkqnf/database/migrations
+                - link "Last backup" [ref=e199] [cursor=pointer]:
+                  - /url: /dashboard/project/xoapfqjmzczxamxgkqnf/database/backups/scheduled
+              - status [ref=e211]:
+                - generic [ref=e212]: Loading infrastructure...
+            - generic [ref=e216]:
+              - generic [ref=e218]:
+                - button "Drag to reorder section" [ref=e220]
+                - generic [ref=e230]:
+                  - generic [ref=e231]:
+                    - generic [ref=e232]:
+                      - generic [ref=e233]: "0"
+                      - generic [ref=e234]: Total Requests
+                    - button "Last 24 hours" [ref=e235] [cursor=pointer]
+                  - generic [ref=e240]:
+                    - button "Scroll right" [ref=e242] [cursor=pointer]
+                    - region "Horizontally scrollable content" [ref=e246]:
+                      - generic [ref=e247]:
+                        - generic [ref=e249]:
+                          - generic [ref=e252]:
+                            - heading [level=3] [ref=e253]:
+                              - link "Database requests" [ref=e254] [cursor=pointer]:
+                                - /url: /dashboard/project/xoapfqjmzczxamxgkqnf/editor
+                            - generic [ref=e255]: "0"
+                          - paragraph [ref=e263]: No data for selected period
+                        - generic [ref=e267]:
+                          - generic [ref=e270]:
+                            - heading [level=3] [ref=e271]:
+                              - link "Auth requests" [ref=e272] [cursor=pointer]:
+                                - /url: /dashboard/project/xoapfqjmzczxamxgkqnf/auth/users
+                            - generic [ref=e273]: "0"
+                          - paragraph [ref=e281]: No data for selected period
+                        - generic [ref=e285]:
+                          - generic [ref=e288]:
+                            - heading [level=3] [ref=e289]:
+                              - link "Storage requests" [ref=e290] [cursor=pointer]:
+                                - /url: /dashboard/project/xoapfqjmzczxamxgkqnf/storage/buckets
+                            - generic [ref=e291]: "0"
+                          - paragraph [ref=e299]: No data for selected period
+                        - generic [ref=e303]:
+                          - generic [ref=e306]:
+                            - heading [level=3] [ref=e307]:
+                              - link "Realtime requests" [ref=e308] [cursor=pointer]:
+                                - /url: /dashboard/project/xoapfqjmzczxamxgkqnf/realtime/inspector
+                            - generic [ref=e309]: "0"
+                          - paragraph [ref=e317]: No data for selected period
+              - generic [ref=e321]:
+                - button "Drag to reorder section" [ref=e323]
+                - generic [ref=e333]:
+                  - generic [ref=e334]:
+                    - heading "Advisor found no issues" [level=2] [ref=e335]
+                    - button "Ask Assistant" [ref=e336] [cursor=pointer]
+                  - paragraph [ref=e348]: No security or performance issues found
+              - generic [ref=e350]:
+                - button "Drag to reorder section" [ref=e352]
+                - generic [ref=e362]:
+                  - heading "Reports" [level=3] [ref=e364]
+                  - generic [ref=e366]:
+                    - heading "Build a custom report" [level=4] [ref=e367]
+                    - paragraph [ref=e368]: Keep track of your most important metrics
+                    - paragraph [ref=e369]: No charts set up yet in report
+              - status [ref=e370]
+  - alert [ref=e371]: Supabase

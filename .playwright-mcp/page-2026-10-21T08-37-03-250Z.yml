@@ -1,0 +1,25 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - link "MINIDSP" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e5]: SECURE WORKSPACE
+    - region [ref=e6]:
+      - paragraph [ref=e7]: ACCOUNT ACCESS
+      - heading "Sign in" [level=1] [ref=e8]
+      - paragraph [ref=e9]: Sign in to continue to your private scan workspace.
+      - generic [ref=e10]:
+        - generic [ref=e12]:
+          - generic [ref=e13]: Email
+          - textbox "Email" [ref=e15]
+        - generic [ref=e17]:
+          - generic [ref=e18]: Password
+          - textbox "Password" [ref=e20]
+        - button "Sign in" [ref=e21] [cursor=pointer]
+      - paragraph [ref=e22]:
+        - text: New to MiniDSP?
+        - link "Create account" [ref=e23] [cursor=pointer]:
+          - /url: /signup
+    - generic [ref=e24]: MINIDSP · TRAINING BUILD
+  - button "Open Next.js Dev Tools" [ref=e30] [cursor=pointer]
+  - alert [ref=e34]
